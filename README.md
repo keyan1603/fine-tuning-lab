@@ -35,7 +35,7 @@ local, free LoRA fine-tuning instead:
 - **A real Requisite-ai integration attempt**
   (`scenario_ticket_extraction/ollama_bridge.py`, `run_ollama_integration.py`):
   the merged, tuned model gets imported into local Ollama and called
-  through [requisite-ai](https://github.com/keyan1603/requisite-ai)'s
+  through [requisite-ai](https://github.com/requisite-ai/requisite-ai)'s
   existing `OllamaProvider`, zero framework changes, the real proof for
   this post's enterprise-architecture claim that fine-tuning is a
   model-name swap behind a real provider abstraction.
